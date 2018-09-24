@@ -3,14 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { EmployeeComponent } from './employee/employee.component';
+ 
 import { StudentComponent } from './student/student.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    EmployeeComponent,
+    AppComponent, 
     StudentComponent
   ],
   imports: [
