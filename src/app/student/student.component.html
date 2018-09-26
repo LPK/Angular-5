@@ -1,3 +1,17 @@
-<p>
-  student works!
-</p>
+<table class="table">
+  <tr>
+    <th>Id</th>
+    <th>FirstName</th>
+    <th>Phone</th>
+    <th>Email</th>
+    <th>Address</th>
+  </tr>
+  <tr *ngFor="let s of studentList">
+    <td>{{s.id}}</td>
+    <td>{{s.firstName}}</td>
+    <td>{{s.phoneNumber}}</td>
+    <td>{{s.email}}</td>
+    <td>{{s.address1}}</td>
+  </tr>
+
+</table>
